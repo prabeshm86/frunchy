@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './images/logo.jpg';
 import './App.css';
 
 function App() {
@@ -10,14 +10,6 @@ function App() {
         <p>
           Welcome to Frunchy Restro !!!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
       <footer>
         Frunchy Restro 2020. All rights reserved.
