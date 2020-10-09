@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d850ddaf4cc481bcae83cde75291f8d",
+    "revision": "bc4712227332277079322058039cf900",
     "url": "/frunchy/index.html"
   },
   {
-    "revision": "3882602543db6078e664",
+    "revision": "bd5111ee351cc8e3fafb",
     "url": "/frunchy/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frunchy/static/js/2.96e5e7e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3882602543db6078e664",
-    "url": "/frunchy/static/js/main.d7ef7a38.chunk.js"
+    "revision": "bd5111ee351cc8e3fafb",
+    "url": "/frunchy/static/js/main.7c7464dd.chunk.js"
   },
   {
     "revision": "61ee67070caf88ad974e",
     "url": "/frunchy/static/js/runtime-main.07322e61.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/frunchy/static/media/logo.5d5d9eef.svg"
+    "revision": "4cde8807cfeee01860572ab29d765f1a",
+    "url": "/frunchy/static/media/logo.4cde8807.jpg"
   }
 ]);

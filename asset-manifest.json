@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/frunchy/static/css/main.5f361e03.chunk.css",
-    "main.js": "/frunchy/static/js/main.d7ef7a38.chunk.js",
-    "main.js.map": "/frunchy/static/js/main.d7ef7a38.chunk.js.map",
+    "main.js": "/frunchy/static/js/main.7c7464dd.chunk.js",
+    "main.js.map": "/frunchy/static/js/main.7c7464dd.chunk.js.map",
     "runtime-main.js": "/frunchy/static/js/runtime-main.07322e61.js",
     "runtime-main.js.map": "/frunchy/static/js/runtime-main.07322e61.js.map",
     "static/js/2.96e5e7e0.chunk.js": "/frunchy/static/js/2.96e5e7e0.chunk.js",
     "static/js/2.96e5e7e0.chunk.js.map": "/frunchy/static/js/2.96e5e7e0.chunk.js.map",
     "index.html": "/frunchy/index.html",
-    "precache-manifest.0c386d65bc0871b174b6edadc15f1ce6.js": "/frunchy/precache-manifest.0c386d65bc0871b174b6edadc15f1ce6.js",
+    "precache-manifest.434baceb41aa1b9842df47e22f14a192.js": "/frunchy/precache-manifest.434baceb41aa1b9842df47e22f14a192.js",
     "service-worker.js": "/frunchy/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/frunchy/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.96e5e7e0.chunk.js.LICENSE.txt": "/frunchy/static/js/2.96e5e7e0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/frunchy/static/media/logo.5d5d9eef.svg"
+    "static/media/logo.jpg": "/frunchy/static/media/logo.4cde8807.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.07322e61.js",
     "static/js/2.96e5e7e0.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d7ef7a38.chunk.js"
+    "static/js/main.7c7464dd.chunk.js"
   ]
 }
