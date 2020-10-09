@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/frunchy/static/css/main.5f361e03.chunk.css",
-    "main.js": "/frunchy/static/js/main.351e755b.chunk.js",
-    "main.js.map": "/frunchy/static/js/main.351e755b.chunk.js.map",
+    "main.js": "/frunchy/static/js/main.7c7464dd.chunk.js",
+    "main.js.map": "/frunchy/static/js/main.7c7464dd.chunk.js.map",
     "runtime-main.js": "/frunchy/static/js/runtime-main.07322e61.js",
     "runtime-main.js.map": "/frunchy/static/js/runtime-main.07322e61.js.map",
     "static/js/2.96e5e7e0.chunk.js": "/frunchy/static/js/2.96e5e7e0.chunk.js",
     "static/js/2.96e5e7e0.chunk.js.map": "/frunchy/static/js/2.96e5e7e0.chunk.js.map",
     "index.html": "/frunchy/index.html",
-    "precache-manifest.2c0220fe38419234f5ad65fda8818207.js": "/frunchy/precache-manifest.2c0220fe38419234f5ad65fda8818207.js",
+    "precache-manifest.5234174379beec7d73441733ec8ae253.js": "/frunchy/precache-manifest.5234174379beec7d73441733ec8ae253.js",
     "service-worker.js": "/frunchy/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/frunchy/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.96e5e7e0.chunk.js.LICENSE.txt": "/frunchy/static/js/2.96e5e7e0.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.07322e61.js",
     "static/js/2.96e5e7e0.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.351e755b.chunk.js"
+    "static/js/main.7c7464dd.chunk.js"
   ]
 }
