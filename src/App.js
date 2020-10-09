@@ -3,7 +3,6 @@ import logo from './images/logo.jpg';
 import './App.css';
 
 function App() {
-  document.title = "Fruncy Restro";
   return (
     <div className="App">
       <header className="App-header">
