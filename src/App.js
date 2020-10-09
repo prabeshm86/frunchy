@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to Frunchy Restro !!!
         </p>
         <a
           className="App-link"
@@ -19,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer>
+        Frunchy Restro 2020. All rights reserved.
+      </footer>
     </div>
   );
 }
