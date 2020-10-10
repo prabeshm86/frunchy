@@ -1,4 +1,6 @@
-class FoodItem extends React.Component {
+import React, { Component } from "react";
+
+class FoodItem extends Component {
     render() {
       return (
         <div className="food-item">
