@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/prabeshmanandhar/Projects/frunchy/frunchy/LoginService.Api/LoginService.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/prabeshmanandhar/Projects/frunchy/frunchy/LoginService.Api/LoginService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prabeshmanandhar/Projects/frunchy/frunchy/LoginService.Api/LoginService.Api.csproj",
+        "projectName": "LoginService.Api",
+        "projectPath": "/Users/prabeshmanandhar/Projects/frunchy/frunchy/LoginService.Api/LoginService.Api.csproj",
+        "packagesPath": "/Users/prabeshmanandhar/.nuget/packages/",
+        "outputPath": "/Users/prabeshmanandhar/Projects/frunchy/frunchy/LoginService.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/prabeshmanandhar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview7-27912-14, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          }
+        }
+      }
+    }
+  }
+}
