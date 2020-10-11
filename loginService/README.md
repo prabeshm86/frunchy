@@ -1,1 +1,1 @@
-This project exposes Login APIs.
+This project exposes Login APIs. Git/Slack integration is awesome
