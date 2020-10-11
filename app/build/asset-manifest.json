@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frunchy/static/css/main.cd196849.chunk.css",
+    "main.js": "/frunchy/static/js/main.32a2effe.chunk.js",
+    "main.js.map": "/frunchy/static/js/main.32a2effe.chunk.js.map",
+    "runtime-main.js": "/frunchy/static/js/runtime-main.07322e61.js",
+    "runtime-main.js.map": "/frunchy/static/js/runtime-main.07322e61.js.map",
+    "static/js/2.888d06de.chunk.js": "/frunchy/static/js/2.888d06de.chunk.js",
+    "static/js/2.888d06de.chunk.js.map": "/frunchy/static/js/2.888d06de.chunk.js.map",
+    "index.html": "/frunchy/index.html",
+    "precache-manifest.7ae437e94e3f02a43b2567cca65690f5.js": "/frunchy/precache-manifest.7ae437e94e3f02a43b2567cca65690f5.js",
+    "service-worker.js": "/frunchy/service-worker.js",
+    "static/css/main.cd196849.chunk.css.map": "/frunchy/static/css/main.cd196849.chunk.css.map",
+    "static/js/2.888d06de.chunk.js.LICENSE.txt": "/frunchy/static/js/2.888d06de.chunk.js.LICENSE.txt",
+    "static/media/logo.jpg": "/frunchy/static/media/logo.4cde8807.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07322e61.js",
+    "static/js/2.888d06de.chunk.js",
+    "static/css/main.cd196849.chunk.css",
+    "static/js/main.32a2effe.chunk.js"
+  ]
+}
