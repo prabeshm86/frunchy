@@ -1,1 +1,1 @@
-This project exposes Login APIs
+This project exposes Login APIs.
