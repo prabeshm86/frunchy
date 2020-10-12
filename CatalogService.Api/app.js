@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 4000
 const jwt = require("jsonwebtoken");
+var Rollbar = require('rollbar');
+var rollbar = new Rollbar('493b977ee19749b1878496635ea86436');
 process.env.ACCESS_TOKEN_SECRET = "XCAP05H6LoKvbRRa/QkqLNMI7cOHguaRyHzyg7n5qEkGjQmtBhz4SzYh4Fqwjyi3KJHlSXKPwVu2+bXr6CtpgQ=="
 
 function authenticateToken(req, res, next) {
@@ -24,8 +26,12 @@ app.get('/', authenticateToken, (req, res) => {
 });
 
 app.get('/menu', (req, res)=>{
+    //throw (55);
     res.send([{name: "Momo"}]);
 });
+
+// Use the rollbar error handler to send exceptions to your rollbar account
+app.use(rollbar.errorHandler());
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
