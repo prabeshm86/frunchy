@@ -19,8 +19,13 @@ function authenticateToken(req, res, next) {
 }
 
 app.get('/', authenticateToken, (req, res) => {
-  res.send('Hello World!')
-})
+    console.log(req);
+  res.send("Hello! "+req.user.unique_name);
+});
+
+app.get('/menu', (req, res)=>{
+    res.send([{name: "Momo"}]);
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
