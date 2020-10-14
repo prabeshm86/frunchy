@@ -11,6 +11,7 @@ class Menu extends React.Component {
                     <li><NavLink exact to="/">Home</NavLink></li>
                     <li><NavLink to="/foodItems">Menu</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
+                    <li><NavLink to="/fooditemlist">Food List</NavLink></li>
                 </ul>
             </div>
         );

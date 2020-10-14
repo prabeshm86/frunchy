@@ -1,0 +1,8 @@
+[ 
+    {"id":1,"name": "Chicken MoMo","categoryname":"MoMo","catid":1}, 
+    {"id":2,"name": "Buff MoMo","categoryname":"MoMo","catid":1}, 
+    {"id":3,"name": "Chicken Chowmin","categoryname":"Chowmin","catid":2}, 
+    {"id":4,"name": "Buff Chowmin","categoryname":"Chowmin","catid":2}, 
+    {"id":5,"name": "Veg MoMo","categoryname":"MoMo","catid":1}, 
+    {"id":6,"name": "Veg Chowmin","categoryname":"Chowmin","catid":2}
+]

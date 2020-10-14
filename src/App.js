@@ -9,6 +9,7 @@ import {
 import Home from "./components/pages/home";
 import FoodItems from "./components/pages/foodItems";
 import Contact from "./components/pages/contact";
+import Fooditemlist from "./components/pages/fooditemlist";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route exact path="/" component={Home} />
                     <Route path="/fooditems" component={FoodItems} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/fooditemlist" component={Fooditemlist} />
                 </div>
                 <footer >
                     Frunchy Restro 2020. All rights reserved. </footer> </div>
