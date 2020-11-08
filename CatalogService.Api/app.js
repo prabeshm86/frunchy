@@ -11,28 +11,40 @@ function authenticateToken(req, res, next) {
     const authHeader = req.headers['authorization']
     const token = authHeader && authHeader.split(' ')[1]
     if (token == null) return res.sendStatus(401) // if there isn't any token
-  
+
     jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => {
-      console.log(err)
-      if (err) return res.sendStatus(403)
-      req.user = user
-      next() // pass the execution off to whatever request the client intended
+        console.log(err)
+        if (err) return res.sendStatus(403)
+        req.user = user
+        next() // pass the execution off to whatever request the client intended
     })
 }
 
 app.get('/', authenticateToken, (req, res) => {
     console.log(req);
-  res.send("Hello! "+req.user.unique_name);
+    res.send("Hello! " + req.user.unique_name);
 });
 
-app.get('/menu', (req, res)=>{
+function filterFoodItems(search, category, data) {
+    var filteredItems = data;
+    if (search !== "") {
+        filteredItems = filteredItems.filter(i => i.name.startsWith(search));
+    }
+
+    if (category !== "") {
+        filteredItems = filteredItems.filter(i => i.category === category);
+    }
+    return filteredItems;
+}
+
+app.get('/menu', (req, res) => {
     //throw (55);
-    res.send([{name: "Momo"}]);
+    res.send([{ name: "Momo" }]);
 });
 
 // Use the rollbar error handler to send exceptions to your rollbar account
 app.use(rollbar.errorHandler());
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`Example app listening at http://localhost:${port}`)
 })
